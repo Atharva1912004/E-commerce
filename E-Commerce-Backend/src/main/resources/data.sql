@@ -1,5 +1,4 @@
--- Optional: uncomment this line if you want to clear all products before inserting (for development only)
--- DELETE FROM product;
+
 
 INSERT INTO product (id, name, description, price, brand, category, image_url) VALUES
     ('550e8400-e29b-41d4-a716-446655440002', 'Smartphone X', 'Latest smartphone with cutting-edge features', 899.99, 'TechBrand', 'ELECTRONICS', 'http://localhost:8080/smartphone.jpg')
